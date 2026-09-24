@@ -1,0 +1,52 @@
+﻿_id,Municipality,Ten-year housing target,Total housing progress since 2022,Target for 2024,Total 2024 housing progress,Progress % for 2024,Housing target status
+1,Ajax,17000,1908,1417,270,19.05%,Not met
+2,Aurora,8000,663,667,189,28.34%,Not met
+3,Barrie,23000,5450,1917,1459,76.11%,Not met
+4,Belleville,3100,1177,258,250,96.90%,On track
+5,Bradford West Gwillimbury,6500,1015,542,263,48.52%,Not met
+6,Brampton,113000,21005,9417,5791,61.50%,Not met
+7,Brantford,10000,2543,833,372,44.66%,Not met
+8,Burlington,29000,1897,2417,1185,49.03%,Not met
+9,Caledon,13000,2511,1083,715,66.02%,Not met
+10,Cambridge,19000,3023,1583,741,46.81%,Not met
+11,Chatham-Kent,1100,1378,92,311,338.04%,Exceeded
+12,Clarington,13000,2135,1083,899,83.01%,On track
+13,East Gwillimbury,4300,1214,358,328,91.62%,On track
+14,Georgina,6200,1039,517,417,80.66%,On track
+15,Greater Sudbury,3800,1577,317,840,264.98%,Exceeded
+16,Guelph,18000,2897,1500,1279,85.27%,On track
+17,Haldimand County,4200,744,350,310,88.57%,On track
+18,Halton Hills,9500,679,792,293,36.99%,Not met
+19,Hamilton,47000,10196,3917,2384,60.86%,Not met
+20,Innisfil,6300,1604,525,309,58.86%,Not met
+21,Kawartha Lakes,6500,1494,542,451,83.21%,On track
+22,Kingston,8000,2862,667,966,144.83%,Exceeded
+23,Kitchener,35000,9594,2917,3067,105.14%,Exceeded
+24,London,47000,8036,3917,3723,95.05%,On track
+25,Markham,44000,6492,3667,2034,55.47%,Not met
+26,Milton,21000,5539,1750,2260,129.14%,Exceeded
+27,Mississauga,120000,12099,10000,3496,34.96%,Not met
+28,New Tecumseth,6400,558,533,251,47.09%,Not met
+29,Newmarket,12000,1007,1000,223,22.30%,Not met
+30,Niagara Falls,8000,1857,667,774,116.04%,Exceeded
+31,Norfolk County,5700,735,475,189,39.79%,Not met
+32,North Bay,1000,820,83,398,479.52%,Exceeded
+33,Oakville,33000,7603,2750,3679,133.78%,Exceeded
+34,Oshawa,23000,4063,1917,949,49.50%,Not met
+35,Ottawa,151000,28641,12583,7871,62.55%,Not met
+36,Peterborough City,4700,1070,392,294,75.00%,Not met
+37,Pickering,13000,4932,1083,1880,173.59%,Exceeded
+38,Richmond Hill,27000,3108,2250,912,40.53%,Not met
+39,Sarnia,1000,575,83,164,197.59%,Exceeded
+40,Sault Ste. Marie,1500,671,125,189,151.20%,Exceeded
+41,St. Catharines,11000,1853,917,782,85.28%,On track
+42,Thunder Bay,2200,603,183,262,143.17%,Exceeded
+43,Toronto,285000,74339,23750,20999,88.42%,On track
+44,Vaughan,42000,8604,3500,2431,69.46%,Not met
+45,Waterloo,16000,3285,1333,1722,129.18%,Exceeded
+46,Welland,4300,1955,358,408,113.97%,Exceeded
+47,Whitby,18000,3333,1500,627,41.80%,Not met
+48,Whitchurch-Stouffville,6500,1642,542,60,11.07%,Not met
+49,Windsor,13000,3143,1083,2306,212.93%,Exceeded
+50,Woodstock ,5500,746,458,134,29.26%,Not met
+51,Municipalities without targets,172700,46537,14390,12802,88.96%,Not applicable
