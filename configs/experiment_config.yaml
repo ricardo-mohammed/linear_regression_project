@@ -1,0 +1,20 @@
+# Experiment Configuration
+# Linear Regression Architecture Workshop
+
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  dataset: "california_housing.csv"
+  selected_feature: "median_income"
+  target: "median_house_value"
+
+model:
+  learning_rate: 0.01
+  iterations: 1000
+
+training:
+  test_size: 0.2
+  random_state: 42
+
+experiment:
+  results_path: "experiments/results.csv"

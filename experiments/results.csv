@@ -1,0 +1,2 @@
+experiment_id,dataset,feature,target,test_size,rmse,mae,r21,california_housing.csv,median_income,median_house_value,0.2,84209.01241414454,62990.86530093761,0.45885918903846656
+1,california_housing.csv,median_income,median_house_value,0.2,84209.01241414454,62990.86530093761,0.45885918903846656
