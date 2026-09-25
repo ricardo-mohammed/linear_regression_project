@@ -1,0 +1,633 @@
+{
+  "help": "https://data.ontario.ca/api/3/action/help_show?name=datastore_search",
+  "success": true,
+  "result": {
+    "include_total": true,
+    "limit": 1000,
+    "records_format": "objects",
+    "resource_id": "3bb04ba5-2445-44e0-9d2c-8a25dd1b18e6",
+    "total_estimation_threshold": null,
+    "records": [
+      {
+        "_id": 1,
+        "Municipality": "Ajax",
+        "Ten-year housing target": 17000,
+        "Total housing progress since 2022": 1908,
+        "Target for 2024": 1417,
+        "Total 2024 housing progress": 270,
+        "Progress % for 2024": "19.05%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 2,
+        "Municipality": "Aurora",
+        "Ten-year housing target": 8000,
+        "Total housing progress since 2022": 663,
+        "Target for 2024": 667,
+        "Total 2024 housing progress": 189,
+        "Progress % for 2024": "28.34%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 3,
+        "Municipality": "Barrie",
+        "Ten-year housing target": 23000,
+        "Total housing progress since 2022": 5450,
+        "Target for 2024": 1917,
+        "Total 2024 housing progress": 1459,
+        "Progress % for 2024": "76.11%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 4,
+        "Municipality": "Belleville",
+        "Ten-year housing target": 3100,
+        "Total housing progress since 2022": 1177,
+        "Target for 2024": 258,
+        "Total 2024 housing progress": 250,
+        "Progress % for 2024": "96.90%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 5,
+        "Municipality": "Bradford West Gwillimbury",
+        "Ten-year housing target": 6500,
+        "Total housing progress since 2022": 1015,
+        "Target for 2024": 542,
+        "Total 2024 housing progress": 263,
+        "Progress % for 2024": "48.52%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 6,
+        "Municipality": "Brampton",
+        "Ten-year housing target": 113000,
+        "Total housing progress since 2022": 21005,
+        "Target for 2024": 9417,
+        "Total 2024 housing progress": 5791,
+        "Progress % for 2024": "61.50%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 7,
+        "Municipality": "Brantford",
+        "Ten-year housing target": 10000,
+        "Total housing progress since 2022": 2543,
+        "Target for 2024": 833,
+        "Total 2024 housing progress": 372,
+        "Progress % for 2024": "44.66%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 8,
+        "Municipality": "Burlington",
+        "Ten-year housing target": 29000,
+        "Total housing progress since 2022": 1897,
+        "Target for 2024": 2417,
+        "Total 2024 housing progress": 1185,
+        "Progress % for 2024": "49.03%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 9,
+        "Municipality": "Caledon",
+        "Ten-year housing target": 13000,
+        "Total housing progress since 2022": 2511,
+        "Target for 2024": 1083,
+        "Total 2024 housing progress": 715,
+        "Progress % for 2024": "66.02%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 10,
+        "Municipality": "Cambridge",
+        "Ten-year housing target": 19000,
+        "Total housing progress since 2022": 3023,
+        "Target for 2024": 1583,
+        "Total 2024 housing progress": 741,
+        "Progress % for 2024": "46.81%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 11,
+        "Municipality": "Chatham-Kent",
+        "Ten-year housing target": 1100,
+        "Total housing progress since 2022": 1378,
+        "Target for 2024": 92,
+        "Total 2024 housing progress": 311,
+        "Progress % for 2024": "338.04%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 12,
+        "Municipality": "Clarington",
+        "Ten-year housing target": 13000,
+        "Total housing progress since 2022": 2135,
+        "Target for 2024": 1083,
+        "Total 2024 housing progress": 899,
+        "Progress % for 2024": "83.01%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 13,
+        "Municipality": "East Gwillimbury",
+        "Ten-year housing target": 4300,
+        "Total housing progress since 2022": 1214,
+        "Target for 2024": 358,
+        "Total 2024 housing progress": 328,
+        "Progress % for 2024": "91.62%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 14,
+        "Municipality": "Georgina",
+        "Ten-year housing target": 6200,
+        "Total housing progress since 2022": 1039,
+        "Target for 2024": 517,
+        "Total 2024 housing progress": 417,
+        "Progress % for 2024": "80.66%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 15,
+        "Municipality": "Greater Sudbury",
+        "Ten-year housing target": 3800,
+        "Total housing progress since 2022": 1577,
+        "Target for 2024": 317,
+        "Total 2024 housing progress": 840,
+        "Progress % for 2024": "264.98%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 16,
+        "Municipality": "Guelph",
+        "Ten-year housing target": 18000,
+        "Total housing progress since 2022": 2897,
+        "Target for 2024": 1500,
+        "Total 2024 housing progress": 1279,
+        "Progress % for 2024": "85.27%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 17,
+        "Municipality": "Haldimand County",
+        "Ten-year housing target": 4200,
+        "Total housing progress since 2022": 744,
+        "Target for 2024": 350,
+        "Total 2024 housing progress": 310,
+        "Progress % for 2024": "88.57%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 18,
+        "Municipality": "Halton Hills",
+        "Ten-year housing target": 9500,
+        "Total housing progress since 2022": 679,
+        "Target for 2024": 792,
+        "Total 2024 housing progress": 293,
+        "Progress % for 2024": "36.99%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 19,
+        "Municipality": "Hamilton",
+        "Ten-year housing target": 47000,
+        "Total housing progress since 2022": 10196,
+        "Target for 2024": 3917,
+        "Total 2024 housing progress": 2384,
+        "Progress % for 2024": "60.86%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 20,
+        "Municipality": "Innisfil",
+        "Ten-year housing target": 6300,
+        "Total housing progress since 2022": 1604,
+        "Target for 2024": 525,
+        "Total 2024 housing progress": 309,
+        "Progress % for 2024": "58.86%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 21,
+        "Municipality": "Kawartha Lakes",
+        "Ten-year housing target": 6500,
+        "Total housing progress since 2022": 1494,
+        "Target for 2024": 542,
+        "Total 2024 housing progress": 451,
+        "Progress % for 2024": "83.21%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 22,
+        "Municipality": "Kingston",
+        "Ten-year housing target": 8000,
+        "Total housing progress since 2022": 2862,
+        "Target for 2024": 667,
+        "Total 2024 housing progress": 966,
+        "Progress % for 2024": "144.83%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 23,
+        "Municipality": "Kitchener",
+        "Ten-year housing target": 35000,
+        "Total housing progress since 2022": 9594,
+        "Target for 2024": 2917,
+        "Total 2024 housing progress": 3067,
+        "Progress % for 2024": "105.14%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 24,
+        "Municipality": "London",
+        "Ten-year housing target": 47000,
+        "Total housing progress since 2022": 8036,
+        "Target for 2024": 3917,
+        "Total 2024 housing progress": 3723,
+        "Progress % for 2024": "95.05%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 25,
+        "Municipality": "Markham",
+        "Ten-year housing target": 44000,
+        "Total housing progress since 2022": 6492,
+        "Target for 2024": 3667,
+        "Total 2024 housing progress": 2034,
+        "Progress % for 2024": "55.47%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 26,
+        "Municipality": "Milton",
+        "Ten-year housing target": 21000,
+        "Total housing progress since 2022": 5539,
+        "Target for 2024": 1750,
+        "Total 2024 housing progress": 2260,
+        "Progress % for 2024": "129.14%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 27,
+        "Municipality": "Mississauga",
+        "Ten-year housing target": 120000,
+        "Total housing progress since 2022": 12099,
+        "Target for 2024": 10000,
+        "Total 2024 housing progress": 3496,
+        "Progress % for 2024": "34.96%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 28,
+        "Municipality": "New Tecumseth",
+        "Ten-year housing target": 6400,
+        "Total housing progress since 2022": 558,
+        "Target for 2024": 533,
+        "Total 2024 housing progress": 251,
+        "Progress % for 2024": "47.09%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 29,
+        "Municipality": "Newmarket",
+        "Ten-year housing target": 12000,
+        "Total housing progress since 2022": 1007,
+        "Target for 2024": 1000,
+        "Total 2024 housing progress": 223,
+        "Progress % for 2024": "22.30%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 30,
+        "Municipality": "Niagara Falls",
+        "Ten-year housing target": 8000,
+        "Total housing progress since 2022": 1857,
+        "Target for 2024": 667,
+        "Total 2024 housing progress": 774,
+        "Progress % for 2024": "116.04%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 31,
+        "Municipality": "Norfolk County",
+        "Ten-year housing target": 5700,
+        "Total housing progress since 2022": 735,
+        "Target for 2024": 475,
+        "Total 2024 housing progress": 189,
+        "Progress % for 2024": "39.79%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 32,
+        "Municipality": "North Bay",
+        "Ten-year housing target": 1000,
+        "Total housing progress since 2022": 820,
+        "Target for 2024": 83,
+        "Total 2024 housing progress": 398,
+        "Progress % for 2024": "479.52%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 33,
+        "Municipality": "Oakville",
+        "Ten-year housing target": 33000,
+        "Total housing progress since 2022": 7603,
+        "Target for 2024": 2750,
+        "Total 2024 housing progress": 3679,
+        "Progress % for 2024": "133.78%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 34,
+        "Municipality": "Oshawa",
+        "Ten-year housing target": 23000,
+        "Total housing progress since 2022": 4063,
+        "Target for 2024": 1917,
+        "Total 2024 housing progress": 949,
+        "Progress % for 2024": "49.50%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 35,
+        "Municipality": "Ottawa",
+        "Ten-year housing target": 151000,
+        "Total housing progress since 2022": 28641,
+        "Target for 2024": 12583,
+        "Total 2024 housing progress": 7871,
+        "Progress % for 2024": "62.55%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 36,
+        "Municipality": "Peterborough City",
+        "Ten-year housing target": 4700,
+        "Total housing progress since 2022": 1070,
+        "Target for 2024": 392,
+        "Total 2024 housing progress": 294,
+        "Progress % for 2024": "75.00%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 37,
+        "Municipality": "Pickering",
+        "Ten-year housing target": 13000,
+        "Total housing progress since 2022": 4932,
+        "Target for 2024": 1083,
+        "Total 2024 housing progress": 1880,
+        "Progress % for 2024": "173.59%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 38,
+        "Municipality": "Richmond Hill",
+        "Ten-year housing target": 27000,
+        "Total housing progress since 2022": 3108,
+        "Target for 2024": 2250,
+        "Total 2024 housing progress": 912,
+        "Progress % for 2024": "40.53%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 39,
+        "Municipality": "Sarnia",
+        "Ten-year housing target": 1000,
+        "Total housing progress since 2022": 575,
+        "Target for 2024": 83,
+        "Total 2024 housing progress": 164,
+        "Progress % for 2024": "197.59%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 40,
+        "Municipality": "Sault Ste. Marie",
+        "Ten-year housing target": 1500,
+        "Total housing progress since 2022": 671,
+        "Target for 2024": 125,
+        "Total 2024 housing progress": 189,
+        "Progress % for 2024": "151.20%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 41,
+        "Municipality": "St. Catharines",
+        "Ten-year housing target": 11000,
+        "Total housing progress since 2022": 1853,
+        "Target for 2024": 917,
+        "Total 2024 housing progress": 782,
+        "Progress % for 2024": "85.28%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 42,
+        "Municipality": "Thunder Bay",
+        "Ten-year housing target": 2200,
+        "Total housing progress since 2022": 603,
+        "Target for 2024": 183,
+        "Total 2024 housing progress": 262,
+        "Progress % for 2024": "143.17%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 43,
+        "Municipality": "Toronto",
+        "Ten-year housing target": 285000,
+        "Total housing progress since 2022": 74339,
+        "Target for 2024": 23750,
+        "Total 2024 housing progress": 20999,
+        "Progress % for 2024": "88.42%",
+        "Housing target status": "On track"
+      },
+      {
+        "_id": 44,
+        "Municipality": "Vaughan",
+        "Ten-year housing target": 42000,
+        "Total housing progress since 2022": 8604,
+        "Target for 2024": 3500,
+        "Total 2024 housing progress": 2431,
+        "Progress % for 2024": "69.46%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 45,
+        "Municipality": "Waterloo",
+        "Ten-year housing target": 16000,
+        "Total housing progress since 2022": 3285,
+        "Target for 2024": 1333,
+        "Total 2024 housing progress": 1722,
+        "Progress % for 2024": "129.18%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 46,
+        "Municipality": "Welland",
+        "Ten-year housing target": 4300,
+        "Total housing progress since 2022": 1955,
+        "Target for 2024": 358,
+        "Total 2024 housing progress": 408,
+        "Progress % for 2024": "113.97%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 47,
+        "Municipality": "Whitby",
+        "Ten-year housing target": 18000,
+        "Total housing progress since 2022": 3333,
+        "Target for 2024": 1500,
+        "Total 2024 housing progress": 627,
+        "Progress % for 2024": "41.80%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 48,
+        "Municipality": "Whitchurch-Stouffville",
+        "Ten-year housing target": 6500,
+        "Total housing progress since 2022": 1642,
+        "Target for 2024": 542,
+        "Total 2024 housing progress": 60,
+        "Progress % for 2024": "11.07%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 49,
+        "Municipality": "Windsor",
+        "Ten-year housing target": 13000,
+        "Total housing progress since 2022": 3143,
+        "Target for 2024": 1083,
+        "Total 2024 housing progress": 2306,
+        "Progress % for 2024": "212.93%",
+        "Housing target status": "Exceeded"
+      },
+      {
+        "_id": 50,
+        "Municipality": "Woodstock ",
+        "Ten-year housing target": 5500,
+        "Total housing progress since 2022": 746,
+        "Target for 2024": 458,
+        "Total 2024 housing progress": 134,
+        "Progress % for 2024": "29.26%",
+        "Housing target status": "Not met"
+      },
+      {
+        "_id": 51,
+        "Municipality": "Municipalities without targets",
+        "Ten-year housing target": 172700,
+        "Total housing progress since 2022": 46537,
+        "Target for 2024": 14390,
+        "Total 2024 housing progress": 12802,
+        "Progress % for 2024": "88.96%",
+        "Housing target status": "Not applicable"
+      }
+    ],
+    "fields": [
+      {
+        "id": "_id",
+        "type": "int"
+      },
+      {
+        "id": "Municipality",
+        "type": "text",
+        "info": {
+          "notes": "This variable includes the Ontario municipalities which have been assigned housing targets. Ontario is working with its partners to build more homes faster and has assigned the province’s 50 largest and fastest-growing municipalities with housing targets to help meet this goal. ",
+          "type_override": "text",
+          "frictionless_dict": [
+            {
+              "type": "string",
+              "name": "Municipality"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Ten-year housing target",
+        "type": "numeric",
+        "info": {
+          "notes": "The number of new homes that municipalities with provincially assigned housing targets need to build in order to meet Ontario’s goal of building more homes faster. Housing targets have been assigned based on current population as well as 2011 to 2021 growth trends.",
+          "type_override": "numeric",
+          "frictionless_dict": [
+            {
+              "type": "number",
+              "name": "Ten-year housing target"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Total housing progress since 2022",
+        "type": "numeric",
+        "info": {
+          "notes": "The collective number of new homes that municipalities have built since January 1, 2022. This variable includes: \r\n\r\n* starts, additional residential units (ARUs), long-term care (LTC) beds from 2022-2023; and,\r\n* starts, ARUs, LTC beds, Congregate retirement home suites, and Postsecondary student beds from 2024 onward.\r\n",
+          "type_override": "numeric",
+          "frictionless_dict": [
+            {
+              "type": "number",
+              "name": "Total housing progress since 2022"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Target for 2024",
+        "type": "numeric",
+        "info": {
+          "notes": "Each municipality's 10-year housing target has been broken down into annual targets for each calendar year (January 1 to December 31). Annual targets ramp up until 2026.",
+          "type_override": "numeric",
+          "frictionless_dict": [
+            {
+              "type": "number",
+              "name": "Target for 2024"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Total 2024 housing progress",
+        "type": "numeric",
+        "info": {
+          "notes": "The number of new homes that municipalities have built in the calendar year (January 1 to December 31). This variable includes starts, ARUs, LTC beds, congregate retirement home suites, and postsecondary student beds.",
+          "type_override": "numeric",
+          "frictionless_dict": [
+            {
+              "type": "number",
+              "name": "Total 2024 housing progress"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Progress % for 2024",
+        "type": "text",
+        "info": {
+          "notes": "The number of new homes municipalities have built in the calendar year (January 1 to December 31), expressed as a percentage of the municipality’s annual housing target for the same calendar year.",
+          "type_override": "text",
+          "frictionless_dict": [
+            {
+              "type": "string",
+              "name": "Progress % for 2024"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Housing target status",
+        "type": "text",
+        "info": {
+          "notes": "For municipalities with provincially assigned housing targets, there are four possible housing target statuses:\r\n\r\n* a municipality which has not achieved at least 80% of their annual housing target will have a status of 'not met'\r\n* a municipality which has achieved at least 80% of their annual housing target will have a status of 'on track '\r\n* a municipality which has achieved their annual housing target (100%) will have a status of 'met'\r\n* a municipality which has achieved more than exceeded their annual housing target (+100% or more) will have a status of 'exceeded'\r\n\r\nMunicipalities without a provincially assigned housing target will have a status of ‘not applicable.’",
+          "type_override": "text",
+          "frictionless_dict": [
+            {
+              "type": "string",
+              "name": "Housing target status"
+            }
+          ]
+        }
+      }
+    ],
+    "_links": {
+      "start": "/api/3/action/datastore_search?resource_id=3bb04ba5-2445-44e0-9d2c-8a25dd1b18e6&limit=1000",
+      "next": "/api/3/action/datastore_search?resource_id=3bb04ba5-2445-44e0-9d2c-8a25dd1b18e6&limit=1000&offset=1000"
+    },
+    "total": 51,
+    "total_was_estimated": false
+  }
+}
