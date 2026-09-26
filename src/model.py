@@ -13,28 +13,30 @@ from sklearn.linear_model import LinearRegression
 
 def train_model(X_train, y_train):
     """
-    Train a Linear Regression model.
+    Train a Linear Regression model using scikit-learn.
 
     This function fits a scikit-learn LinearRegression model using the
     provided training features and target values.
 
     Parameters:
-        X_train: Training feature matrix.
-        y_train: Training target values aligned with X_train.
+        X_train: Training feature data.
+        y_train: Training target values.
 
     Returns:
-        Trained Linear Regression model.
+        model: Trained Linear Regression model.
 
-    Constraints:
-        - X_train and y_train must be aligned row-by-row.
-        - Missing values should be handled before calling this function.
-        - The input data should be numerical for sklearn compatibility.
+    Note:
+        This implementation is currently used to validate the
+        MLOps architecture. The gradient descent implementation
+        from Session 1 can be integrated later.
+
     """
 
-    # Create the model
+    # Create the Linear Regression model.
     model = LinearRegression()
 
-    # Train the model
+    # Train the model using the training data.
     model.fit(X_train, y_train)
 
+    # Return the trained model so it can be evaluated.
     return model

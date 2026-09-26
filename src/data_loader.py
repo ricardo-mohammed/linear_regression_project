@@ -1,3 +1,4 @@
+
 # File:         data_loader.py
 # Assignment:   Linear Regression Architecture / MLOps Workshop
 # Course:       CSCN8010 - Foundations of Machine Learning Frameworks
@@ -14,30 +15,33 @@ from pathlib import Path
 
 def load_csv(file_path):
     """
-    Load a CSV file and return it as a pandas DataFrame.
+    Load a CSV dataset and return it as a Pandas DataFrame.
 
-    This function resolves the input path relative to the project root and reads
-    the CSV file using pandas.
+    Process:
+    1. Find the root directory of the project.
+    2. Combine the project root with the relative CSV path.
+    3. Read the CSV file using Pandas.
+    4. Return the dataset as a DataFrame.
 
     Parameters:
-        file_path: Relative path to the CSV file from the project root.
+        file_path: Relative path to the CSV dataset.
 
     Returns:
-        Pandas DataFrame containing the loaded dataset.
-
-    Constraints:
-        - The path must point to a valid CSV file in the project structure.
-        - The file must exist before the function is called.
-        - The file content must follow a valid tabular CSV format.
+        df: Pandas DataFrame containing the loaded dataset.
     """
 
-    # Find the root directory of the project
+    # data_loader.py is located inside src/.
+    # parent.parent moves from src/ to the project root.
     project_root = Path(__file__).resolve().parent.parent
 
-    # Create the complete path to the CSV
+    # Create the complete path using the project root
+    # and the relative path received from the configuration.
+    #
+    # Example:
+    # project_root + "data/raw/california_housing.csv"
     csv_path = project_root / file_path
 
-    # Load the CSV
+    # Read the CSV file and convert it into a DataFrame.
     df = pd.read_csv(csv_path)
 
     return df
@@ -67,3 +71,4 @@ def load_raw_datasets():
     ontario_df = pd.read_csv(raw_dir / "ontario_housing_2024.csv")
 
     return california_df, ontario_df
+
