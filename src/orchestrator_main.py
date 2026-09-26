@@ -1,3 +1,13 @@
+# File:         orchestrator_main.py
+# Assignment:   Linear Regression Architecture / MLOps Workshop
+# Course:       CSCN8010 - Foundations of Machine Learning Frameworks
+# Date:         September 25th, 2026
+# Team 3:       Ricardo Mohammed (7500382), Senay Teweldebrhan (9120588)
+#               Zeynep Ozdemir (9045142), Juan Camilo Chirivi (9115141)
+# Description:  This file orchestrates the data loading, preprocessing, model
+#               training, evaluation, and experiment logging pipeline.
+
+
 import yaml
 from pathlib import Path
 
@@ -17,7 +27,19 @@ CONFIG_PATH = PROJECT_ROOT / "configs" / "experiment_config.yaml"
 
 
 def load_config():
-    """Load experiment configuration from YAML file."""
+    """
+    Load experiment configuration from the YAML file.
+
+    This helper reads the project configuration and returns the structured
+    dictionary used to drive the training pipeline.
+
+    Returns:
+        Python dictionary containing the experiment configuration values.
+
+    Constraints:
+        - The configuration file must exist at the expected project path.
+        - The YAML content must include the required data and training keys.
+    """
 
     with open(CONFIG_PATH, "r") as file:
         config = yaml.safe_load(file)
