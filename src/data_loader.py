@@ -9,8 +9,13 @@
 #               DataFrame for the machine learning pipeline.
 
 
+
+#Ingesting data from offline records from CSV files
+
 import pandas as pd
 from pathlib import Path
+import requests
+from sqlalchemy import create_engine, text
 
 
 def load_csv(file_path):
@@ -72,3 +77,45 @@ def load_raw_datasets():
 
     return california_df, ontario_df
 
+
+
+# Load Ontario housing data from the API.
+# The resource_id identifies the dataset, and limit=1000 sets the
+# maximum number of records requested.
+# raise_for_status() stops the program if the request fails.
+# The function returns the API response as JSON.
+
+def load_housing_api():
+    url = "https://data.ontario.ca/api/3/action/datastore_search"
+    resource_id = "3bb04ba5-2445-44e0-9d2c-8a25dd1b18e6"
+
+    response = requests.get(
+        url,
+        params={"resource_id": resource_id, "limit": 1000},
+        timeout=60,
+    )
+    response.raise_for_status()
+
+    return response.json()
+
+# Load housing data from the SQLite database.
+# database_path tells the function where the database file is.
+# create_engine() creates a connection that Python can use.
+
+def load_housing_from_db(database_path):
+    """Load the 10 municipalities with the most 2024 housing progress."""
+    engine = create_engine(f"sqlite:///{database_path}")
+
+    query = text("""
+        SELECT "Municipality",
+               "Target for 2024",
+               "Total 2024 housing progress",
+               "Progress percentage 2024",
+               "Housing target status"
+        FROM ontario_housing_progress
+        ORDER BY "Total 2024 housing progress" DESC
+        LIMIT 10
+    """)
+
+    with engine.connect() as connection:
+        return pd.read_sql_query(query, connection)
